@@ -1,5 +1,5 @@
 # rapiz.h 
-## V1.01
+## V1.1
 ****
  **2020.7.20**
  **Rapiz**
@@ -13,7 +13,7 @@
  #### 将`.h`文件放到程序根目录当中
  #### 使用`#include"rapiz.h"`引用函数库
  ****
- ### void sayhello(void)
+### void sayhello(void)
 **输出 hello world !**
 #### 例程
 `sayhello();`
@@ -60,7 +60,7 @@
 ### int intarray(int len)
 **向长度为len的整型数组赋值**
 #### 例程
-`intarray(10);`
+`i ntarray(10);`
 ### float floatarray(int len)
 **向长度为len的浮点型数组赋值**
 #### 例程
@@ -97,3 +97,23 @@
 **输出长度为len的a数组中含有fid的个数**
 #### 例程
 `int flag =findchar(a,10,Q);`
+### int isprimer（int n)
+**判断n是否为质数 当错误时返回-1**
+#### 例程
+`int flag =isprimer(998);`
+### int intsum(int *p,int len )
+**求长度为len的整型p数组和**
+#### 例程
+`int sum=intsum(a,10);`
+### float floatsum(float *p,int len)
+**求长度为len的浮点型数组p的和**
+#### 例程
+`float sum=floatsum(a,10);`
+### float intavg(int *p,int len)
+**求长度为len的整型数组p的平均值**
+#### 例程
+`float avg=intavg(p,10);`
+### float floatavg(float *p,int len)
+**求长度为len的浮点型数组p的平均值**
+#### 例程
+`float avg=floatavg(p,10);`
