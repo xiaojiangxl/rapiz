@@ -5,8 +5,7 @@
  ****
 
  ****
- #### http://blog.52i.xyz
-####  下载地址： http://blog.52i.xyz/index.php/archives/234/
+
  ****
  ## 操作说明
  #### 下载相应版本的项目文件
